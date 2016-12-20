@@ -1,0 +1,400 @@
+msvarny@msvarny-E7440 ~ $ cd $CATALINA_HOME/bin
+msvarny@msvarny-E7440 /bin $ cd
+msvarny@msvarny-E7440 ~ $ 
+msvarny@msvarny-E7440 ~ $ cd
+msvarny@msvarny-E7440 ~ $ cd etc/
+bash: cd: etc/: No such file or directory
+msvarny@msvarny-E7440 ~ $ cd /
+msvarny@msvarny-E7440 / $ cd etc/
+msvarny@msvarny-E7440 /etc $ source bash.bashrc 
+msvarny@msvarny-E7440 /etc $ cd $CATALINA_HOME/bin
+bash: cd: /home/msvarny/Programy/Tomcat/bin: No such file or directory
+msvarny@msvarny-E7440 /etc $ cd $CATALINA_HOME/
+msvarny@msvarny-E7440 ~/Programy/Tomcat $ cd $CATALINA_HOME/bin
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ tar xvfz commons-daemon-native.tar.gz
+\commons-daemon-1.0.15-native-src/README
+commons-daemon-1.0.15-native-src/LICENSE.txt
+commons-daemon-1.0.15-native-src/NOTICE.txt
+commons-daemon-1.0.15-native-src/RELEASE-NOTES.txt
+commons-daemon-1.0.15-native-src/unix/
+commons-daemon-1.0.15-native-src/unix/support/
+commons-daemon-1.0.15-native-src/unix/native/
+commons-daemon-1.0.15-native-src/unix/man/
+commons-daemon-1.0.15-native-src/unix/support/config.guess
+commons-daemon-1.0.15-native-src/unix/support/config.sub
+commons-daemon-1.0.15-native-src/unix/support/apfunctions.m4
+commons-daemon-1.0.15-native-src/unix/support/apsupport.m4
+commons-daemon-1.0.15-native-src/unix/support/apjava.m4
+commons-daemon-1.0.15-native-src/unix/Makefile.in
+commons-daemon-1.0.15-native-src/unix/configure.in
+commons-daemon-1.0.15-native-src/unix/native/home.c
+commons-daemon-1.0.15-native-src/unix/native/java.h
+commons-daemon-1.0.15-native-src/unix/native/.indent.pro
+commons-daemon-1.0.15-native-src/unix/native/Makefile.in
+commons-daemon-1.0.15-native-src/unix/native/debug.c
+commons-daemon-1.0.15-native-src/unix/native/signals.h
+commons-daemon-1.0.15-native-src/unix/native/home.h
+commons-daemon-1.0.15-native-src/unix/native/dso-dyld.c
+commons-daemon-1.0.15-native-src/unix/native/location.c
+commons-daemon-1.0.15-native-src/unix/native/debug.h
+commons-daemon-1.0.15-native-src/unix/native/java.c
+commons-daemon-1.0.15-native-src/unix/native/version.h
+commons-daemon-1.0.15-native-src/unix/native/help.c
+commons-daemon-1.0.15-native-src/unix/native/signals.c
+commons-daemon-1.0.15-native-src/unix/native/jsvc.h
+commons-daemon-1.0.15-native-src/unix/native/help.h
+commons-daemon-1.0.15-native-src/unix/native/locks.h
+commons-daemon-1.0.15-native-src/unix/native/dso-dlfcn.c
+commons-daemon-1.0.15-native-src/unix/native/dso.h
+commons-daemon-1.0.15-native-src/unix/native/arguments.h
+commons-daemon-1.0.15-native-src/unix/native/replace.c
+commons-daemon-1.0.15-native-src/unix/native/locks.c
+commons-daemon-1.0.15-native-src/unix/native/location.h
+commons-daemon-1.0.15-native-src/unix/native/arguments.c
+commons-daemon-1.0.15-native-src/unix/native/replace.h
+commons-daemon-1.0.15-native-src/unix/native/jsvc-unix.c
+commons-daemon-1.0.15-native-src/unix/Makedefs.in
+commons-daemon-1.0.15-native-src/unix/CHANGES.txt
+commons-daemon-1.0.15-native-src/unix/man/README
+commons-daemon-1.0.15-native-src/unix/man/jsvc.1.xml
+commons-daemon-1.0.15-native-src/unix/INSTALL.txt
+commons-daemon-1.0.15-native-src/unix/support/install.sh
+commons-daemon-1.0.15-native-src/unix/support/mkdist.sh
+commons-daemon-1.0.15-native-src/unix/support/buildconf.sh
+commons-daemon-1.0.15-native-src/unix/configure
+commons-daemon-1.0.15-native-src/unix/man/fetch.sh
+commons-daemon-1.0.15-native-src/windows/
+commons-daemon-1.0.15-native-src/windows/xdocs/
+commons-daemon-1.0.15-native-src/windows/src/
+commons-daemon-1.0.15-native-src/windows/resources/
+commons-daemon-1.0.15-native-src/windows/include/
+commons-daemon-1.0.15-native-src/windows/apps/
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/
+commons-daemon-1.0.15-native-src/windows/xdocs/index.xml
+commons-daemon-1.0.15-native-src/windows/src/private.h
+commons-daemon-1.0.15-native-src/windows/src/handles.c
+commons-daemon-1.0.15-native-src/windows/src/utils.c
+commons-daemon-1.0.15-native-src/windows/src/service.c
+commons-daemon-1.0.15-native-src/windows/src/mclib.c
+commons-daemon-1.0.15-native-src/windows/src/mclib.h
+commons-daemon-1.0.15-native-src/windows/src/log.c
+commons-daemon-1.0.15-native-src/windows/src/console.c
+commons-daemon-1.0.15-native-src/windows/src/cmdline.c
+commons-daemon-1.0.15-native-src/windows/src/registry.c
+commons-daemon-1.0.15-native-src/windows/src/rprocess.c
+commons-daemon-1.0.15-native-src/windows/src/gui.c
+commons-daemon-1.0.15-native-src/windows/src/javajni.c
+commons-daemon-1.0.15-native-src/windows/resources/license.rtf
+commons-daemon-1.0.15-native-src/windows/README
+commons-daemon-1.0.15-native-src/windows/include/Makefile.inc
+commons-daemon-1.0.15-native-src/windows/include/service.h
+commons-daemon-1.0.15-native-src/windows/include/handles.h
+commons-daemon-1.0.15-native-src/windows/include/gui.h
+commons-daemon-1.0.15-native-src/windows/include/console.h
+commons-daemon-1.0.15-native-src/windows/include/rprocess.h
+commons-daemon-1.0.15-native-src/windows/include/apxwin.h
+commons-daemon-1.0.15-native-src/windows/include/cmdline.h
+commons-daemon-1.0.15-native-src/windows/include/log.h
+commons-daemon-1.0.15-native-src/windows/include/registry.h
+commons-daemon-1.0.15-native-src/windows/include/javajni.h
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/prunmgr.c
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/Makefile
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/prunmgr.h
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/prunmgr.manifest
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/Makefile
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/prunsrv.manifest
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/prunsrv.h
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/prunsrv.c
+commons-daemon-1.0.15-native-src/windows/resources/procruns.ico
+commons-daemon-1.0.15-native-src/windows/resources/commons.bmp
+commons-daemon-1.0.15-native-src/windows/resources/procrunr.ico
+commons-daemon-1.0.15-native-src/windows/resources/procrunw.ico
+commons-daemon-1.0.15-native-src/windows/resources/susers.bmp
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/prunmgr.rc
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/prunsrv.rc
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ cd commons-daemon-1.0.x-native-src/unix
+bash: cd: commons-daemon-1.0.x-native-src/unix: No such file or directory
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ tar xvfz commons-daemon-native.tar.gz
+commons-daemon-1.0.15-native-src/README
+commons-daemon-1.0.15-native-src/LICENSE.txt
+commons-daemon-1.0.15-native-src/NOTICE.txt
+commons-daemon-1.0.15-native-src/RELEASE-NOTES.txt
+commons-daemon-1.0.15-native-src/unix/
+commons-daemon-1.0.15-native-src/unix/support/
+commons-daemon-1.0.15-native-src/unix/native/
+commons-daemon-1.0.15-native-src/unix/man/
+commons-daemon-1.0.15-native-src/unix/support/config.guess
+commons-daemon-1.0.15-native-src/unix/support/config.sub
+commons-daemon-1.0.15-native-src/unix/support/apfunctions.m4
+commons-daemon-1.0.15-native-src/unix/support/apsupport.m4
+commons-daemon-1.0.15-native-src/unix/support/apjava.m4
+commons-daemon-1.0.15-native-src/unix/Makefile.in
+commons-daemon-1.0.15-native-src/unix/configure.in
+commons-daemon-1.0.15-native-src/unix/native/home.c
+commons-daemon-1.0.15-native-src/unix/native/java.h
+commons-daemon-1.0.15-native-src/unix/native/.indent.pro
+commons-daemon-1.0.15-native-src/unix/native/Makefile.in
+commons-daemon-1.0.15-native-src/unix/native/debug.c
+commons-daemon-1.0.15-native-src/unix/native/signals.h
+commons-daemon-1.0.15-native-src/unix/native/home.h
+commons-daemon-1.0.15-native-src/unix/native/dso-dyld.c
+commons-daemon-1.0.15-native-src/unix/native/location.c
+commons-daemon-1.0.15-native-src/unix/native/debug.h
+commons-daemon-1.0.15-native-src/unix/native/java.c
+commons-daemon-1.0.15-native-src/unix/native/version.h
+commons-daemon-1.0.15-native-src/unix/native/help.c
+commons-daemon-1.0.15-native-src/unix/native/signals.c
+commons-daemon-1.0.15-native-src/unix/native/jsvc.h
+commons-daemon-1.0.15-native-src/unix/native/help.h
+commons-daemon-1.0.15-native-src/unix/native/locks.h
+commons-daemon-1.0.15-native-src/unix/native/dso-dlfcn.c
+commons-daemon-1.0.15-native-src/unix/native/dso.h
+commons-daemon-1.0.15-native-src/unix/native/arguments.h
+commons-daemon-1.0.15-native-src/unix/native/replace.c
+commons-daemon-1.0.15-native-src/unix/native/locks.c
+commons-daemon-1.0.15-native-src/unix/native/location.h
+commons-daemon-1.0.15-native-src/unix/native/arguments.c
+commons-daemon-1.0.15-native-src/unix/native/replace.h
+commons-daemon-1.0.15-native-src/unix/native/jsvc-unix.c
+commons-daemon-1.0.15-native-src/unix/Makedefs.in
+commons-daemon-1.0.15-native-src/unix/CHANGES.txt
+commons-daemon-1.0.15-native-src/unix/man/README
+commons-daemon-1.0.15-native-src/unix/man/jsvc.1.xml
+commons-daemon-1.0.15-native-src/unix/INSTALL.txt
+commons-daemon-1.0.15-native-src/unix/support/install.sh
+commons-daemon-1.0.15-native-src/unix/support/mkdist.sh
+commons-daemon-1.0.15-native-src/unix/support/buildconf.sh
+commons-daemon-1.0.15-native-src/unix/configure
+commons-daemon-1.0.15-native-src/unix/man/fetch.sh
+commons-daemon-1.0.15-native-src/windows/
+commons-daemon-1.0.15-native-src/windows/xdocs/
+commons-daemon-1.0.15-native-src/windows/src/
+commons-daemon-1.0.15-native-src/windows/resources/
+commons-daemon-1.0.15-native-src/windows/include/
+commons-daemon-1.0.15-native-src/windows/apps/
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/
+commons-daemon-1.0.15-native-src/windows/xdocs/index.xml
+commons-daemon-1.0.15-native-src/windows/src/private.h
+commons-daemon-1.0.15-native-src/windows/src/handles.c
+commons-daemon-1.0.15-native-src/windows/src/utils.c
+commons-daemon-1.0.15-native-src/windows/src/service.c
+commons-daemon-1.0.15-native-src/windows/src/mclib.c
+commons-daemon-1.0.15-native-src/windows/src/mclib.h
+commons-daemon-1.0.15-native-src/windows/src/log.c
+commons-daemon-1.0.15-native-src/windows/src/console.c
+commons-daemon-1.0.15-native-src/windows/src/cmdline.c
+commons-daemon-1.0.15-native-src/windows/src/registry.c
+commons-daemon-1.0.15-native-src/windows/src/rprocess.c
+commons-daemon-1.0.15-native-src/windows/src/gui.c
+commons-daemon-1.0.15-native-src/windows/src/javajni.c
+commons-daemon-1.0.15-native-src/windows/resources/license.rtf
+commons-daemon-1.0.15-native-src/windows/README
+commons-daemon-1.0.15-native-src/windows/include/Makefile.inc
+commons-daemon-1.0.15-native-src/windows/include/service.h
+commons-daemon-1.0.15-native-src/windows/include/handles.h
+commons-daemon-1.0.15-native-src/windows/include/gui.h
+commons-daemon-1.0.15-native-src/windows/include/console.h
+commons-daemon-1.0.15-native-src/windows/include/rprocess.h
+commons-daemon-1.0.15-native-src/windows/include/apxwin.h
+commons-daemon-1.0.15-native-src/windows/include/cmdline.h
+commons-daemon-1.0.15-native-src/windows/include/log.h
+commons-daemon-1.0.15-native-src/windows/include/registry.h
+commons-daemon-1.0.15-native-src/windows/include/javajni.h
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/prunmgr.c
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/Makefile
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/prunmgr.h
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/prunmgr.manifest
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/Makefile
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/prunsrv.manifest
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/prunsrv.h
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/prunsrv.c
+commons-daemon-1.0.15-native-src/windows/resources/procruns.ico
+commons-daemon-1.0.15-native-src/windows/resources/commons.bmp
+commons-daemon-1.0.15-native-src/windows/resources/procrunr.ico
+commons-daemon-1.0.15-native-src/windows/resources/procrunw.ico
+commons-daemon-1.0.15-native-src/windows/resources/susers.bmp
+commons-daemon-1.0.15-native-src/windows/apps/prunmgr/prunmgr.rc
+commons-daemon-1.0.15-native-src/windows/apps/prunsrv/prunsrv.rc
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ cd commons-daemon-1.0.15-native-src/unix/
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin/commons-daemon-1.0.15-native-src/unix $ ./configure
+*** Current host ***
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking cached host system type... ok
+*** C-Language compilation tools ***
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for ranlib... ranlib
+checking for strip... strip
+*** Host support ***
+checking C flags dependant on host system type... ok
+*** Java compilation tools ***
+checking for JDK os include directory... jni_md.h found in /usr/lib/jvm/java-7-openjdk-amd64/include
+gcc flags added
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking sys/capability.h usability... no
+checking sys/capability.h presence... no
+checking for sys/capability.h... no
+configure: WARNING: cannot find headers for libcap
+*** Writing output files ***
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makedefs
+config.status: creating native/Makefile
+*** All done ***
+Now you can issue "make"
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin/commons-daemon-1.0.15-native-src/unix $ make
+(cd native; make  all)
+make[1]: Entering directory `/home/msvarny/Programy/Tomcat/bin/commons-daemon-1.0.15-native-src/unix/native'
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c jsvc-unix.c -o jsvc-unix.o
+jsvc-unix.c: In function ‘get_pidf’:
+jsvc-unix.c:624:10: warning: ignoring return value of ‘lockf’, declared with attribute warn_unused_result [-Wunused-result]
+     lockf(fd, F_LOCK, 0);
+          ^
+jsvc-unix.c:626:10: warning: ignoring return value of ‘lockf’, declared with attribute warn_unused_result [-Wunused-result]
+     lockf(fd, F_ULOCK, 0);
+          ^
+jsvc-unix.c: In function ‘wait_child’:
+jsvc-unix.c:720:14: warning: ignoring return value of ‘lockf’, declared with attribute warn_unused_result [-Wunused-result]
+         lockf(fd, F_LOCK, 0);
+              ^
+jsvc-unix.c:722:14: warning: ignoring return value of ‘lockf’, declared with attribute warn_unused_result [-Wunused-result]
+         lockf(fd, F_ULOCK, 0);
+              ^
+jsvc-unix.c: In function ‘set_output’:
+jsvc-unix.c:1018:16: warning: ignoring return value of ‘freopen’, declared with attribute warn_unused_result [-Wunused-result]
+         freopen("/dev/null", "r", stdin);
+                ^
+jsvc-unix.c:1029:16: warning: ignoring return value of ‘freopen’, declared with attribute warn_unused_result [-Wunused-result]
+         freopen("/dev/null", "a", stdout);
+                ^
+jsvc-unix.c:1048:16: warning: ignoring return value of ‘freopen’, declared with attribute warn_unused_result [-Wunused-result]
+         freopen("/dev/null", "a", stderr);
+                ^
+jsvc-unix.c: In function ‘check_pid’:
+jsvc-unix.c:576:14: warning: ignoring return value of ‘lockf’, declared with attribute warn_unused_result [-Wunused-result]
+         lockf(fd, F_LOCK, 0);
+              ^
+jsvc-unix.c:584:22: warning: ignoring return value of ‘lockf’, declared with attribute warn_unused_result [-Wunused-result]
+                 lockf(fd, F_ULOCK, 0);
+                      ^
+jsvc-unix.c:596:18: warning: ignoring return value of ‘lockf’, declared with attribute warn_unused_result [-Wunused-result]
+             lockf(fd, F_ULOCK, 0);
+                  ^
+jsvc-unix.c:601:18: warning: ignoring return value of ‘lockf’, declared with attribute warn_unused_result [-Wunused-result]
+             lockf(fd, F_ULOCK, 0);
+                  ^
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c arguments.c -o arguments.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c debug.c -o debug.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c dso-dlfcn.c -o dso-dlfcn.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c dso-dyld.c -o dso-dyld.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c help.c -o help.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c home.c -o home.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c java.c -o java.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c location.c -o location.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c replace.c -o replace.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c locks.c -o locks.o
+gcc -g -O2 -DOS_LINUX -DDSO_DLFCN -DCPU=\"amd64\" -Wall -Wstrict-prototypes   -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include -c signals.c -o signals.o
+ar cr libservice.a arguments.o debug.o dso-dlfcn.o dso-dyld.o help.o home.o java.o location.o replace.o locks.o signals.o
+ranlib libservice.a
+gcc   jsvc-unix.o libservice.a -ldl -lpthread -o ../jsvc
+make[1]: Leaving directory `/home/msvarny/Programy/Tomcat/bin/commons-daemon-1.0.15-native-src/unix/native'
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin/commons-daemon-1.0.15-native-src/unix $ cp jsvc ../..
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin/commons-daemon-1.0.15-native-src/unix $ cd ../..msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh startup.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+Tomcat started.
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ ^C
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh shutdown.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ cd etc/
+bash: cd: etc/: No such file or directory
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ cd
+msvarny@msvarny-E7440 ~ $ cd /etc/
+msvarny@msvarny-E7440 /etc $ source bash.bashrc 
+msvarny@msvarny-E7440 /etc $ sh startup.sh 
+sh: 0: Can't open startup.sh
+msvarny@msvarny-E7440 /etc $ cd
+msvarny@msvarny-E7440 ~ $ cd $CATALINA_HOME/
+msvarny@msvarny-E7440 ~/Programy/Tomcat $ cd bin/
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh startup.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+Tomcat started.
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh shutdown.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh startup.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+Tomcat started.
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh shutdown.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+^[[Amsvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh startup.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+Tomcat started.
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh shutdown.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh startup.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+Tomcat started.
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ sh shutdown.sh 
+Using CATALINA_BASE:   /home/msvarny/Programy/Tomcat
+Using CATALINA_HOME:   /home/msvarny/Programy/Tomcat
+Using CATALINA_TMPDIR: /home/msvarny/Programy/Tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-7-openjdk-amd64
+Using CLASSPATH:       /home/msvarny/Programy/Tomcat/bin/bootstrap.jar:/home/msvarny/Programy/Tomcat/bin/tomcat-juli.jar
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ ^C
+msvarny@msvarny-E7440 ~/Programy/Tomcat/bin $ 
